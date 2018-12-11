@@ -1,0 +1,25 @@
+#boks1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(80, 80, 80);
+    border: 15px solid black;
+    border-bottom: none;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+#boks2{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+    border: 105px solid rgb(40, 40, 40);
+}
+
+p{
+    color: white;
+    width: 250px;
+    background-color: black;
+    border: 15px solid grey;
+    text-align: center;
+    padding: 60px;
+}

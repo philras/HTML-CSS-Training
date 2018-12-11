@@ -1,0 +1,70 @@
+#animWrap{
+    width: 1024px;
+    height: 768px;
+    background-color: rgb(237, 183, 205);
+    margin: auto;
+    position: relative;
+}
+
+/*-----boxes-----*/
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(186, 82, 124);
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: moveBox 10s linear infinite normal;
+}
+
+#box1{
+    -webkit-animation-delay: 0s;
+}
+
+#box2{
+    -webkit-animation-delay: 2.5s;
+}
+
+#box3{
+    -webkit-animation-delay: 5s;
+}
+
+#box4{
+    -webkit-animation-delay: 7.5s;
+}
+
+/*-----boxes end-----*/
+
+/*-----animitation boxes-----*/
+@-webkit-keyframes moveBox{
+    0%{
+        top: 0;
+        left: 0;
+    }
+    
+    25%{
+        top: 0;
+        left: 924px;
+    }
+    
+    50%{
+        top: 668px;
+        left: 924px;
+    }
+    
+    75%{
+        top: 668px;
+        left: 0;
+    }
+    
+    100%{
+        top: 0;
+        left: 0;
+    }
+}
+
+.box:hover{
+    -webkit-animation-play-state: paused;
+}
+
+/*-----animitation boxes end-----*/
